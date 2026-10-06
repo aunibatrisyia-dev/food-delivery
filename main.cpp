@@ -2,14 +2,14 @@
 using namespace std ;
 
 int main() {
-    // INPUT
+    
     double food_prices, quantity ;
     double delivery_distance ;
     string delivery_method ;
     double voucher, service_fee ;
-    double rate_per_km = 2.0 ;     // contoh kadar per km
-    double express_fee = 5.0 ;     // contoh caj express
-    double time_per_km = 3.0 ;     // contoh masa per km (minit)
+    double rate_per_km = 2.0 ;     
+    double express_fee = 5.0 ;     
+    double time_per_km = 3.0 ;    
 
     cout << "Enter food price: " ;
     cin >> food_prices ;
